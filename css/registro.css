@@ -1,0 +1,56 @@
+.formulario{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    background-color: #20354ad5;
+    border: none;
+    border-radius: 15px;
+    width: 300px;
+    margin: auto;
+}
+body{
+    background-color: #c9d6f3;
+    background-image: url('https://i.redd.it/fw3pctfene911.jpg');
+    background-size: cover, contain;
+    background-repeat: no-repeat, no-repeat;
+}
+.texto{
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+}
+
+#datosbancarios{
+    color: white;
+    text-align: left;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    background-color: #91a3b6d5;
+    border: none;
+    border-radius: 15px;
+    width: 300px;
+    margin: auto;
+}
+
+.inicio{
+    background-color: rgb(21, 62, 100);
+    color: white;
+    border-radius: 15px;
+    padding: 15px 30px;
+    transition: font-size 0.3s ease;
+    border: none;
+}
+
+.inicio:hover {
+    font-size: 1.2em;
+    border: none;
+}

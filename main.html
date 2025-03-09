@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>BinaryShop</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <header class="header-mobile">
+            <h1 class="logo">BinaryShop</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+                <h1 class="logo">BinaryShop</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active"><img class="ver-perfil" src="./images/home.svg"> Todos los productos</button>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./perfil.html">
+                            <img class="ver-perfil" src="./images/verperfil.svg">Ver Perfil
+                        </a>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./carrito.html">
+                            <img class="carrito-logo" src="./images/carrito.svg"> Carrito <span id="numerito" class="numerito">0</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="login.html">
+                            <img class="carrito-logo" src="./images/exit.svg">Cerrar Sesion
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2025 Javier & Oscar</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+                <!-- Esto se va a rellenar con JS -->
+            </div>
+        </main>
+    </div>
+    
+    <script src="./js/productos.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

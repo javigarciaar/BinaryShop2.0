@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="icon" type="image/x-icon" href="static/images/logo.webp">
+    <title>Binary Shop - Inicio de sesión</title>
+</head>
+
+
+
+<body>
+    <div class="login-panel">
+        <div>
+            <h1 class="header-text">Inicio de sesión</h1>
+        </div>
+
+        <div class="login-form-content">
+
+            <form class="form" id="loginForm">
+                <div class="content-container">
+                    <label class="text">Nickname</label><input type="text" id="username" class="input-field" name="username" placeholder="Ingrese su nickname" required><br>
+                </div>
+                <div class="content-container">
+                    <label class="text">Contraseña</label><input type="password" id="password" class="input-field" name="password"  placeholder="Ingrese su contraseña" required><br>
+                </div>
+                <div class="seleccionar-rol">
+                    <label class="text">Selecciona tu rol</label><br>
+                    <label class="text">
+                        <input type="radio" name="rol" value="comprador" /> Comprador
+                    </label>
+                    <label class="text">
+                        <input type="radio" name="rol" value="vendedor" /> Vendedor
+                    </label>
+                    <label class="text">
+                        <input type="radio" name="rol" value="admin" /> Administrador
+                    </label>
+            </div>
+            
+            <button class="submit-button">Iniciar sesión</button>
+            
+            <div class="account-request">
+                <p>¿No tienes una cuenta?</p>
+                <a href="registro.html">Regístrate</a>
+            </div>
+
+            </form>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+

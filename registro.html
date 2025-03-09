@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <title>Registro - Binary Shop</title>
+    <link rel="stylesheet" href="./css/registro.css">
+</head>
+
+<body>
+    <form class="formulario">
+    <h1 class="texto">Registro</h1>
+    
+    
+        <div id="nombre">
+        <label class="texto">Nombre</label>
+        <input class="box" placeholder="Ingrese su nombre " required> 
+        </div>
+
+        <br>
+
+        <div id="apellido">
+        <label class="texto"> Apellido</label>
+        <input class="box" placeholder="Ingrese su apellido" required>
+        </div>
+
+        <br>
+
+        <div id="nickname">
+        <label class="texto"> Nickname</label>
+        <input class="box" placeholder="Ingrese su nickname" required> 
+        </div>
+
+        <br>
+        <div id="email">
+        <label class="texto"> Email</label>
+        <input class="box" type="email" placeholder="Ingrese su dirección" required>
+        </div>
+
+        <br>
+
+        <div id="contraseña">
+        <label class="texto"> Contraseña</label>
+        <input class="box" type="password" placeholder="Ingrese su contraseña" required>
+        </div>
+
+        <br>
+
+        <div id="datos">
+        <label id="datosbancarios"> Datos bancarios</label>
+        <div id="banco">
+        <input class="box" placeholder="Numero de tarjeta" required><br>
+        <input class="box" placeholder="Fecha de caducidad" required><br>
+        <input class="box" placeholder="Código de seguridad" required><br>
+        </div>
+        </div>
+
+        <div id="rol">
+        <p class="texto">Seleccione el rol a registrar</p>
+        <span><label class="texto"> Comprador</label><input type="radio"></span><br>
+        <span><label class="texto"> Vendedor</label> <input type="radio"></span><br>
+        <span><label class="texto"> Administrador</label> <input type="radio"></span><br>
+        </div>
+   
+
+    <br>
+    <button class="inicio"type="submit" href="main.html"><label class="texto">Registrarse</label></button>
+    <br>
+    <p class="texto">¿Ya estás registrado?</p>
+    <a href="login.html"><label class="texto">Inicia sesión</label></a>
+    </form>
+
+</body>
+</html>

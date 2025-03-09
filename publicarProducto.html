@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Oscar Contreras</title>
+    <link rel="shortcut icon" href="./images/perfil.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/publicarProducto.css">
+</head>
+<body>
+    <div class="container">
+        <main>
+            <section class="profile">
+                <h2>Perfil</h2>
+                <div class="profile-details">
+                    <div class="profile-image">
+                        <img src="./images/vendedor.png" alt="Foto de perfil">
+                    </div>
+                    <div class="profile-text">
+                        <h3>@danccabello</h3>
+                        <p>Rol: Vendedor</p>
+                        <div class="stats">
+                            <span>4 Meses</span>
+                            <span>4.9 Estrellas</span>
+                            <span>101 Ventas</span>
+                        </div>
+                        <button class="Home"><a class="link" href="./vendedor.html">
+                            Volver a Home
+                        </a></button>
+                        <button class="Cerrar-Sesion"><a class="link" href="./login.html">
+                            Cerrar Sesion
+                        </a></button>
+                        <p class="location">Caracas, Venezuela</p>
+                        <p class="description">Entregas en toda el area metropolitana y envios a toda Venezuela</p>
+                    </div>
+                </div>
+            </section>
+            <section class="basic-info">
+                <h2>Formulario de Publicacion de Producto</h2>
+                <form action="">
+                <div class="form-row">
+                    <label for="firstName">Nombre</label>
+                    <input type="text" id="firstName" placeholder="Ingrese un Nombre">
+                    <label for="lastName">Precio</label>
+                    <input type="text" id="lastName" placeholder="Ingrese un Precio">
+                </div>
+                <div class="form-row">
+                    <label for="title">Titulo</label>
+                    <input type="text" id="title" placeholder="Ingrese un Titulo">
+                </div>
+                <div class="form-row">
+                    <label for="email">Foto</label>
+                    <input type="file" id="email" placeholder="Ingrese un Email">
+                </div>
+                <div class="form-row about">
+                    <label for="about">Descripcion</label>
+                    <textarea id="about">Ingrese una descripcion detallada...</textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="reset" class="cancel">CANCELAR</button>
+                    <button type="submit" class="save">PUBLICAR</button>
+                </div>
+            </form>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
